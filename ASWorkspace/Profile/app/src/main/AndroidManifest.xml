@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.my.profile">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="my.awesome.profile.NetworkActivity"
+            android:label="My QR Code"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name="my.awesome.profile.PortfolioActivity"
+            android:label="Portfolio Links"
+            android:screenOrientation="portrait"/>
+        <activity android:name="my.awesome.profile.VolSvcDetailActivity"
+            android:label="Social Services"
+            android:screenOrientation="portrait"/>
+        <activity android:name="my.awesome.profile.AchievementDetailActivity"
+            android:label="Awards and Achievements"
+            android:screenOrientation="portrait"/>
+        <activity android:name="my.awesome.profile.EduDetailsActivity"
+            android:label="Education History"
+            android:screenOrientation="portrait"/>
+        <activity android:name="my.awesome.profile.EduAdapter"/>
+        <activity android:name="my.awesome.profile.WorkExpDetailActivity"
+            android:label="Work Experience"
+            android:screenOrientation="portrait"/>
+        <activity android:name="my.awesome.profile.WorkExpActivity"
+            android:label="Work Experience"
+            android:screenOrientation="portrait"/>
+        <activity android:name="my.awesome.profile.MyWebActivity"
+            android:label="My Websites"
+            android:screenOrientation="portrait"/>
+        <activity android:name="my.awesome.profile.IntNHobbiesActivity"
+            android:label="Interests and Hobbies"
+            android:screenOrientation="portrait"/>
+        <activity android:name="my.awesome.profile.VolSvcActivity"
+            android:label="Voluntary Service History"
+            android:screenOrientation="portrait"/>
+        <activity android:name="my.awesome.profile.AchievementActivity"
+            android:label="Awards and Achievements"
+            android:screenOrientation="portrait"/>
+        <activity android:name="my.awesome.profile.EduActivity"
+            android:label="Education History"
+            android:screenOrientation="portrait"/>
+        <activity android:name="my.awesome.profile.AboutMeActivity"
+            android:label="About Me"
+            android:screenOrientation="portrait"/>
+        <activity android:name="my.awesome.profile.MainActivity"
+            android:label="Main Profile"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

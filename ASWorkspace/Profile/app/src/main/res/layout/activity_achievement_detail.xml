@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="my.awesome.profile.WorkExpDetailActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/awardRelLayout"
+            android:padding="10dp">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@mipmap/ic_launcher_round"
+                android:id="@+id/issuerLogoDet"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/awardNameDet"
+                android:text="Award Name"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:layout_toRightOf="@+id/issuerLogoDet"
+                android:layout_marginLeft="10sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Issuer Name"
+                android:id="@+id/issuerNameDet"
+                android:textStyle="italic"
+                android:textSize="14sp"
+                android:layout_below="@+id/awardNameDet"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_toRightOf="@+id/issuerLogoDet"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Issued Date"
+                android:id="@+id/issuedDateDet"
+                android:layout_below="@+id/issuerNameDet"
+                android:layout_toRightOf="@+id/issuerLogoDet"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Activities and Societies"
+                android:id="@+id/credIDDet"
+                android:layout_below="@+id/issuedDateDet"
+                android:layout_toRightOf="@+id/issuerLogoDet"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:textSize="14sp"/>
+
+        </RelativeLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/awardRelLayout"
+            android:layout_margin="12dp"
+            android:text="Description"
+            android:id="@+id/awardDescDet"/>
+    </RelativeLayout>
+
+</RelativeLayout>

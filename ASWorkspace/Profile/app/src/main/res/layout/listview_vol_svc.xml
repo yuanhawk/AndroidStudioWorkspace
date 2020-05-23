@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+
+    <TextView
+        android:id="@+id/positionName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Position Name"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/comName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/positionName"
+        android:text="Company name"
+        android:textStyle="italic"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/svcDate"
+        android:layout_below="@+id/comName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date of Service"
+        android:textStyle="bold"
+        android:textSize="14sp"/>
+    <TextView
+        android:id="@+id/catName"
+        android:layout_below="@+id/svcDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Category name"
+        android:textStyle="bold"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/descriptionSvc"
+        android:layout_below="@+id/catName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Description"
+        android:maxLines="3"/>
+</RelativeLayout>

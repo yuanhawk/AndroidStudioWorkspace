@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/navBar">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Categories"
+            android:id="@+id/categoriesTxt"/>
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/action_bar_spinner"
+            android:layout_below="@+id/categoriesTxt"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/searchBtn"
+            android:text="search"
+            android:layout_toLeftOf="@+id/shopCartBtn"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/shopCartBtn"
+            android:text="shop Cart"
+            android:layout_centerHorizontal="true"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/chatBotBtn"
+            android:text="Chat Bot"
+            android:layout_toRightOf="@+id/shopCartBtn"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/topRelLayout"
+        android:layout_below="@+id/navBar"
+        android:layout_margin="10dp"
+        android:scrollbars="vertical">
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/topPdtCard"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Top Product"
+                android:textSize="30sp"
+                android:id="@+id/topPdtTxt"/>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/topPdtName"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_below="@+id/topPdtTxt"
+                android:layout_marginTop="40dp"
+                android:src="@mipmap/ic_launcher"
+                app:civ_border_color="#FF000000"
+                app:civ_border_width="2dp" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/flashDealCard"
+            android:layout_toRightOf="@+id/topPdtCard"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Flash Deals"
+                android:id="@+id/flashDealsTxt"
+                android:textSize="30sp"/>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/flashDealsName"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_below="@+id/flashDealsTxt"
+                android:layout_marginTop="40dp"
+                android:src="@mipmap/ic_launcher"
+                app:civ_border_color="#FF000000"
+                app:civ_border_width="2dp" />
+        </androidx.cardview.widget.CardView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/botRelLayout"
+        android:layout_below="@+id/topRelLayout"
+        android:layout_margin="10dp"
+        android:scrollbars="vertical">
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/promoCard"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Existing\nPromotions"
+                android:textSize="30sp"
+                android:id="@+id/promoTxt"/>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/promoName"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_below="@+id/promoTxt"
+                android:layout_marginTop="80dp"
+                android:src="@mipmap/ic_launcher"
+                app:civ_border_color="#FF000000"
+                app:civ_border_width="2dp" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/trendingCard"
+            android:layout_toRightOf="@+id/promoCard"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Trending\nItems"
+                android:id="@+id/trendingTxt"
+                android:textSize="30sp"/>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/trendingItem"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_below="@+id/trendingTxt"
+                android:layout_marginTop="80dp"
+                android:src="@mipmap/ic_launcher"
+                app:civ_border_color="#FF000000"
+                app:civ_border_width="2dp" />
+        </androidx.cardview.widget.CardView>
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Test Profile</string>
+
+    <string-array name="profile">
+        <item>Introduction</item>
+        <item>Education</item>
+        <item>Skills and Hobbies</item>
+        <item>Accolades and Awards</item>
+        <item>Work Experience</item>
+        <item>National Service</item>
+        <item>Community Service</item>
+    </string-array>
+
+    <string-array name="description">
+        <item>About Me</item>
+        <item>School Related Activities and Academics</item>
+        <item>What Defines Me</item>
+        <item>What I have achieved</item>
+        <item>List of Jobs that I have done</item>
+        <item>Brief Description of My Army Days</item>
+        <item>What I Have Done to Serve the Community</item>
+    </string-array>
+</resources>

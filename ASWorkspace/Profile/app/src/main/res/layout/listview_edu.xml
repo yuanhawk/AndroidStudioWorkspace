@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+
+    <TextView
+        android:id="@+id/schoolName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="School Name"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/degName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/schoolName"
+        android:text="Degree"
+        android:textStyle="italic"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/studyDuration"
+        android:layout_below="@+id/degName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Studying Duration"
+        android:textStyle="bold"
+        android:textSize="14sp"/>
+    <TextView
+        android:id="@+id/activities"
+        android:layout_below="@+id/studyDuration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Activities and Societies"
+        android:textStyle="bold"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/descriptionSch"
+        android:layout_below="@+id/activities"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Description"
+        android:maxLines="3"/>
+</RelativeLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="my.awesome.profile.IntNHobbiesActivity"
+    android:id="@+id/intNHobbiesRelLayout">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/comSvcCardView"
+        android:layout_margin="5dp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/comSvcImg"
+            android:src="@drawable/img_comsvc"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/comPlanTxt"
+            android:text="Community Planning"
+            android:layout_gravity="bottom|center"
+            android:layout_below="@+id/guitarImg"/>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/guitarCardView"
+        android:layout_margin="5dp"
+        android:layout_toRightOf="@+id/comSvcCardView">
+        <ImageView
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:id="@+id/guitarImg"
+            android:src="@drawable/img_guitar"
+            android:layout_gravity="center_horizontal"
+            android:rotation="270"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/guitarTxt"
+            android:text="Guitar Playing"
+            android:layout_gravity="bottom|center"
+            android:layout_below="@+id/guitarImg"/>
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

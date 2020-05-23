@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+
+    <TextView
+        android:id="@+id/awardName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Award Name"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/issuerName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/awardName"
+        android:text="Issuer name"
+        android:textStyle="italic"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/issuedDate"
+        android:layout_below="@+id/issuerName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Issued Date"
+        android:textStyle="bold"
+        android:textSize="14sp"/>
+    <TextView
+        android:id="@+id/credID"
+        android:layout_below="@+id/issuedDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Credential ID"
+        android:textStyle="bold"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/descriptionAward"
+        android:layout_below="@+id/credID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Description"
+        android:maxLines="3"/>
+</RelativeLayout>

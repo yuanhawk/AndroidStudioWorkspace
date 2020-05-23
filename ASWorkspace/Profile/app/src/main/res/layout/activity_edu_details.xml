@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="my.awesome.profile.WorkExpDetailActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/eduRelLayout"
+            android:padding="10dp">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@mipmap/ic_launcher_round"
+                android:id="@+id/schoolLogoDet"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/schoolNameDet"
+                android:text="School Name"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:layout_toRightOf="@+id/schoolLogoDet"
+                android:layout_marginLeft="10sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Degree"
+                android:id="@+id/degNameDet"
+                android:textStyle="italic"
+                android:textSize="14sp"
+                android:layout_below="@+id/schoolNameDet"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_toRightOf="@+id/schoolLogoDet"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Studying Duration"
+                android:id="@+id/studyDurationDet"
+                android:layout_below="@+id/degNameDet"
+                android:layout_toRightOf="@+id/schoolLogoDet"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:textSize="14sp"/>
+
+
+        </RelativeLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Activities and Societies"
+            android:id="@+id/activitiesDet"
+            android:layout_below="@+id/eduRelLayout"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:textSize="14sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/activitiesDet"
+            android:layout_margin="12dp"
+            android:text="Description"
+            android:id="@+id/eduDescDet"/>
+    </RelativeLayout>
+
+</RelativeLayout>

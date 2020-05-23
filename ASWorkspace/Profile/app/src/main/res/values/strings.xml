@@ -1,0 +1,119 @@
+<resources>
+    <item name="id_name" type="id" />
+    <string name="app_name">Profile</string>
+
+    <string-array name="position">
+        <item>Music Teacher</item>
+        <item>Data Entry Assistant</item>
+        <item>CBRE (E) Pioneer (NSF)</item>
+        <item>Intern</item>
+    </string-array>
+
+    <string-array name="company_name">
+        <item>Avant Garde Promotions</item>
+        <item>Indigo Education Group</item>
+        <item>Singapore Armed Forces (SAF)</item>
+        <item>Indigo Education Group</item>
+    </string-array>
+
+    <string-array name="work_duration">
+        <item>Jan 2019 - May 2019 | 5 months</item>
+        <item>Nov 2018 - Feb 2019 | 4 months</item>
+        <item>Jan 2017 - Nov 2018 | 1 year 11 months</item>
+        <item>Dec 2016</item>
+    </string-array>
+
+    <string-array name="description">
+        <item>Instructs guitar ensembles on classical guitar techniques and ensemble skills...\nCLICK HERE</item>
+        <item>Led a team of essay markers and organised essay results into data used for...\nCLICK HERE</item>
+        <item>Actively involved as an operational trooper in security missions (Trump – Kim...\nCLICK HERE</item>
+        <item>Created secondary Integrated Programme (IP) Mathematics resources for various...\nCLICK HERE</item>
+    </string-array>
+
+    <string-array name="school_name">
+        <item>Singapore University of Technology and Design (SUTD)</item>
+        <item>Raffles Institution (Y5-6)</item>
+        <item>Raffles Institution (Y1-4)</item>
+    </string-array>
+
+    <string-array name="deg_name">
+        <item>Bachelor of Engineering - BE, Computer Science</item>
+        <item>Completion of A Level Examinations</item>
+        <item>Completion of Integrated Programme (IP) Track</item>
+    </string-array>
+
+    <string-array name="study_duration">
+        <item>2019 - 2022</item>
+        <item>2015 - 2016</item>
+        <item>2011 - 2014</item>
+    </string-array>
+
+    <string-array name="activities">
+        <item>Student Government (ROOT) - Finance | Ballroom Dancing Club</item>
+        <item>Raffles Institution (Y5-6) Guitar Ensemble (RJGE)</item>
+        <item>Raffles Institution Red Cross (RIRC) | Y4 Peer Support Leader (PSL) | 2014 GAPSem</item>
+    </string-array>
+
+    <string-array name="desc_sch">
+        <item>An aspiring student aiming to join Information Systems Technology and Design (ISTD...\nCLICK HERE</item>
+        <item>A classical musician who has performed at various events. External events include SYF...\nCLICK HERE</item>
+        <item>Training Specialist who plans and executes daily trainings. Oversees the planning and...\nCLICK HERE</item>
+    </string-array>
+
+    <string-array name="award_name">
+        <item>Grade 7 Theory Of Music</item>
+        <item>Diploma of the London College of Music</item>
+        <item>Japanese Language Proficiency Test JLPT N5</item>
+        <item>HSK Level 6</item>
+        <item>1st Prize Shopee Track - The Future of Smart Ecommerce</item>
+    </string-array>
+    <string-array name="issuer_name">
+        <item>Trinity College London</item>
+        <item>University of West London</item>
+        <item>The Japan Foundation, Japan Educational Exchanges and Services</item>
+        <item>Confucius Institute Headquarters</item>
+        <item>Junction X Singapore</item>
+    </string-array>
+    <string-array name="issued_date">
+        <item>Issued Mar 2019</item>
+        <item>Issued Dec 2018</item>
+        <item>Issued Jan 2013</item>
+        <item>Issued Sep 2012</item>
+        <item>27 Sep 2019 - 29 Sep 2019</item>
+    </string-array>
+    <string-array name="cred_id">
+        <item>501/2113/3</item>
+        <item>600/0639/0</item>
+        <item>12B2030101-50226</item>
+        <item>H61209029384</item>
+        <item></item>
+    </string-array>
+    <string-array name="desc_award">
+        <item>Awarded after completion of Theory of Music Grade 7 Syllabus</item>
+        <item>Awarded after demonstrating a standard of performance consistent with a Level 1 (first-year) undergraduate performance recital.</item>
+        <item>Awarded after completion of Japanese N5 syllabus and able to understand simple Japanese conversational topics.</item>
+        <item>Awarded after completion of HSK Level 6, the highest proficiency for non-native Chinese speakers.</item>
+        <item>Developed a prototype: Aunty Amy Chatbot that serves to give a humane touch to ecommerce platform...\n CLICK HERE</item>
+    </string-array>
+
+    <string-array name="position_name">
+        <item>Community Engagement Programme (C2E) Secretary</item>
+        <item>Executive Member</item>
+    </string-array>
+    <string-array name="org_name">
+        <item>Hwi Yoh Community Centre Youth Executive Committee</item>
+        <item>Hwi Yoh Community Centre Youth Executive Committee</item>
+    </string-array>
+    <string-array name="svc_date">
+        <item>Sep 2015 - Sep 2017</item>
+        <item>Sep 2017 - Present</item>
+    </string-array>
+    <string-array name="cat_name">
+        <item>Social Services</item>
+        <item>Social Services</item>
+    </string-array>
+    <string-array name="desc_svc">
+        <item>Assumed the role of Community Engagement Programme (C2E) Secretary in Hwi Yoh CC YEC...\nCLICK HERE</item>
+        <item>Avid volunteer at various events during military service: 2018 Lunar New Year Lunch...\nCLICK HERE</item>
+    </string-array>
+</resources>
